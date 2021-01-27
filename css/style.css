@@ -128,14 +128,17 @@ body {
 
 .we_plan {
     background: url("../images/We plan.png") no-repeat center/cover;
+    text-transform: uppercase;
 }
 
 .we_manage {
     background: url("../images/We manage.png") no-repeat center/cover;
+    text-transform: uppercase;
 }
 
 .we_build {
     background: url("../images/We build.png") no-repeat center/cover;
+    text-transform: uppercase;
 }
 .col-4 {
     width: 33.3333%;

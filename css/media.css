@@ -5,7 +5,9 @@
 }
 
 @media (max-width: 992px) {
-
+    .header-menu {
+        display: none;
+    }
     .hero_title {
         font-size: 40px;
     }
@@ -33,6 +35,15 @@
         margin-bottom:15px;
 
     }
+    .logo{
+        display: inline-block;
+        align-items: center;
+    }
+    a{
+        display: block;
+        align-items: center;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -91,10 +102,18 @@
         justify-content: center;
     }
     .newsletter_form{
-        margin-left: 40px;
+        margin-left: 130px;
     }
     .newsletter_caption{
-        margin-left: 40px;
+        margin-left: 130px;}
+
+    .cap-title:before{
+        content: '';
+        position: absolute;
+        background: deepskyblue;
+        bottom: -5px;
+        width: 50px;
+        height: 2px;
     }
 
 }
@@ -131,7 +150,17 @@
     .cap-btn {
         height: 32px;
     }
+    .newsletter_form{
+        margin-left: 40px;
+    }
+    .newsletter_caption{
+        margin-left: 40px;}
+    .newsletter_form_input{
+        padding: 0 10px;
+    }
+
 }
+
 
 @media (max-width: 320px) {
     .hero_title {
@@ -145,5 +174,6 @@
     .footer-icons {
         width: 100%;
     }
+
 
 }
